@@ -1,6 +1,9 @@
 raspberry-pi-pid-pwm-fan
 ===
-A Python script to regulate Raspberry Pi CPU temperature using PID tuned PWM fan.
+A Python script to monitor CPU temperature and adjust fan speed using PID.
+Originaly I used simular code to run a fan on my Rpi 4, but since updating to a Rpi 5,
+my original code wouldn't work on the Rpi 5, so i adapted my code.
+Enjoy
 
 ## Required Python Packages
 
@@ -68,4 +71,3 @@ then type ```:set ff=unix```, then save with ```wq!```.
 ```
 sudo reboot
 ```
-
